@@ -6,9 +6,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    terminalWidget = new TerminalWidget(this);
-
-
+    // Use the terminalWidget from the UI file
+    terminalWidget = ui->terminalWidget;
 }
 
 
@@ -21,11 +20,10 @@ void MainWindow::on_pushButton_clicked()
 {
     QTermWidget* terminal = terminalWidget->getTerminal();
 
-    QKeyEvent pressEvent(QEvent::KeyPress, Qt::Key_A, Qt::ControlModifier|Qt::ShiftModifier);
+    // Select all text in the terminal
+    terminal->selectAll();
 
-    QApplication::sendEvent(terminalWidget, &pressEvent);
-    QKeyEvent releaseEvent(QEvent::KeyRelease, Qt::Key_A, Qt::ControlModifier|Qt::ShiftModifier);
-    QApplication::sendEvent(terminalWidget, &releaseEvent);
+    // Copy to clipboard
     terminal->copyClipboard();
 }
 

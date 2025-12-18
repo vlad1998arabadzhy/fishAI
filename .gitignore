@@ -1,0 +1,32 @@
+# Build directories
+build/
+build-*/
+*.pro.user*
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Qt
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qm
+
+# Compiled files
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.user
+*.autosave
