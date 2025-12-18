@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/i18n">
+    <file alias="FishAI_en_US.qm">/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_en_US.qm</file>
+  </qresource>
+</RCC>
+

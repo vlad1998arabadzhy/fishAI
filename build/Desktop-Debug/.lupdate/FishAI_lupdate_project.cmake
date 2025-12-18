@@ -1,0 +1,11 @@
+set(lupdate_project_file "/home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt")
+set(lupdate_translations "/home/garuda/CPP_Qt_Projects/FishAI/FishAI_en_US.ts")
+set(lupdate_include_paths "")
+set(lupdate_sources "")
+set(lupdate_subproject_count 1)
+
+set(lupdate_subproject1_source_dir "/home/garuda/CPP_Qt_Projects/FishAI")
+set(lupdate_subproject1_include_paths "/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen/include;/home/garuda/CPP_Qt_Projects/FishAI;/usr/include/qt6/QtCore;/usr/include/qt6;/usr/lib/qt6/mkspecs/linux-g++;/usr/include/qt6;/usr/include/qt6/QtWidgets;/usr/include/qt6;/usr/include/qt6/QtGui;/usr/include/qt6;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include/qtermwidget6")
+set(lupdate_subproject1_sources "/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen/mocs_compilation.cpp;main.cpp;mainwindow.cpp;mainwindow.h;mainwindow.ui;terminalwidget.h;terminalwidget.cpp;/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/.qt/rcc/FishAI_translations.qrc;/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_en_US.qm;/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/.qt/rcc/qrc_FishAI_translations.cpp;/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen/include/ui_mainwindow.h;/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen/timestamp;/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_en_US.qm.rule;/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/.qt/rcc/qrc_FishAI_translations.cpp.rule;/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen/timestamp.rule")
+set(lupdate_subproject1_excluded "")
+set(lupdate_subproject1_autogen_dir "/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen")

@@ -1,0 +1,13 @@
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/FishAI.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/FishAI_lupdate.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/update_translations.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/FishAI_lrelease.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/release_translations.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/install.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/FishAI_autogen_timestamp_deps.dir
+/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/CMakeFiles/FishAI_autogen.dir
