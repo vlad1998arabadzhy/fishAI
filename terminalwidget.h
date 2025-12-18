@@ -11,15 +11,11 @@ public:
     explicit TerminalWidget(QWidget *parent = nullptr);
     ~TerminalWidget();
     QTermWidget* getTerminal();
-
-
-
+    QString getTerminalContent();
 
 private:
     void setupTerminal();
     QTermWidget *terminal;
-
-
 };
 
 #endif // TERMINALWIDGET_H

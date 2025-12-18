@@ -15,7 +15,7 @@ TerminalWidget::~TerminalWidget(){
 
 void TerminalWidget::setupTerminal()
 {
-    QVBoxLayout *layout = new QVBoxLayout(this);
+    QVBoxLayout *layout = new QVBoxLayout();
     layout->setContentsMargins(0,0,0,0);
     layout->setSpacing(0);
     terminal = new QTermWidget(0, this);
@@ -30,13 +30,14 @@ void TerminalWidget::setupTerminal()
     setLayout(layout);
 
     terminal->setFocus();
-
-
 }
 
 QTermWidget* TerminalWidget::getTerminal(){
     return terminal;
+}
 
+QString TerminalWidget::getTerminalContent(){
+    return terminal->selectedText(false);
 }
 
 
