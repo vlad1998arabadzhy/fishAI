@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include "terminalwidget.h"
+#include "consolemessagecombiner.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -18,11 +20,12 @@ public:
     ~MainWindow();
 
 private slots:
-
     void on_pushButton_clicked();
+    void on_combineButton_clicked();
 
 private:
     Ui::MainWindow *ui;
     TerminalWidget *terminalWidget;
+    ConsoleMessageCombiner *messageCombiner;
 };
 #endif // MAINWINDOW_H
