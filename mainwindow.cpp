@@ -20,10 +20,14 @@ void MainWindow::on_pushButton_clicked()
 {
     QTermWidget* terminal = terminalWidget->getTerminal();
 
-    // Select all text in the terminal
-    terminal->selectAll();
+    // Send Ctrl+Shift+A to select all text (standard terminal shortcut)
+    QKeyEvent pressEvent(QEvent::KeyPress, Qt::Key_A, Qt::ControlModifier | Qt::ShiftModifier);
+    QApplication::sendEvent(terminal, &pressEvent);
 
-    // Copy to clipboard
+    QKeyEvent releaseEvent(QEvent::KeyRelease, Qt::Key_A, Qt::ControlModifier | Qt::ShiftModifier);
+    QApplication::sendEvent(terminal, &releaseEvent);
+
+    // Copy selected text to clipboard
     terminal->copyClipboard();
 }
 
