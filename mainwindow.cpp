@@ -8,11 +8,18 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     // Use the terminalWidget from the UI file
     terminalWidget = ui->terminalWidget;
+
+    // Initialize the ConsoleMessageCombiner
+    messageCombiner = new ConsoleMessageCombiner();
+
+    // Optionally set a custom system prompt
+    messageCombiner->setSystemPrompt("You are a helpful AI assistant analyzing terminal output and helping with debugging.");
 }
 
 
 MainWindow::~MainWindow()
 {
+    delete messageCombiner;
     delete ui;
 }
 
@@ -25,5 +32,15 @@ void MainWindow::on_pushButton_clicked()
     terminalWidget->getTerminal()->setSelectionEnd(lines, col);
 
     terminalWidget->getTerminal()->copyClipboard();
+}
+
+void MainWindow::on_combineButton_clicked()
+{
+    // Use the ConsoleMessageCombiner to combine console content with user message
+    messageCombiner->combineAndInsert(
+        terminalWidget->getTerminal(),
+        ui->messageBox,
+        ui->answerBox
+    );
 }
 

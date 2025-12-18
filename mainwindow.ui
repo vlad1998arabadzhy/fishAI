@@ -17,19 +17,53 @@
    <layout class="QVBoxLayout">
     <item>
      <widget class="TerminalWidget" name="terminalWidget" native="true">
-      <widget class="QPushButton" name="pushButton">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>340</y>
-         <width>82</width>
-         <height>24</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Copy All Text</string>
-       </property>
-      </widget>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QLineEdit" name="messageBox">
+        <property name="placeholderText">
+         <string>Enter your message here...</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="combineButton">
+        <property name="text">
+         <string>Combine &amp; Send</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Copy All Text</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="answerBox">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="placeholderText">
+       <string>Combined output will appear here...</string>
+      </property>
      </widget>
     </item>
    </layout>
