@@ -10,8 +10,6 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
   /home/garuda/CPP_Qt_Projects/FishAI/mainwindow.cpp \
   /home/garuda/CPP_Qt_Projects/FishAI/mainwindow.h \
   /home/garuda/CPP_Qt_Projects/FishAI/mainwindow.ui \
-  /home/garuda/CPP_Qt_Projects/FishAI/networkmanager.cpp \
-  /home/garuda/CPP_Qt_Projects/FishAI/networkmanager.h \
   /home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.cpp \
   /home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.h \
   /usr/bin/cmake \
@@ -288,7 +286,6 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
   /usr/include/qt6/QtCore/QRegularExpression \
   /usr/include/qt6/QtCore/QSize \
   /usr/include/qt6/QtCore/QSizeF \
-  /usr/include/qt6/QtCore/QString \
   /usr/include/qt6/QtCore/QStringDecoder \
   /usr/include/qt6/QtCore/QStringList \
   /usr/include/qt6/QtCore/QTextStream \
@@ -1041,6 +1038,8 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
 
 /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
+/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake:
+
 /usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
@@ -1183,13 +1182,9 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
 
 /usr/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
 
-/usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
+/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake:
 
@@ -1415,6 +1410,8 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
 
 /usr/include/c++/15.2.1/unordered_map:
 
+/usr/include/c++/15.2.1/bits/streambuf.tcc:
+
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake:
 
 /usr/include/bits/cpu-set.h:
@@ -1471,15 +1468,31 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
 
 /usr/include/c++/15.2.1/bits/localefwd.h:
 
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
-
-/usr/include/c++/15.2.1/bits/locale_classes.h:
-
-/usr/include/alloca.h:
-
-/usr/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
-
 /usr/include/bits/types/time_t.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QMngPluginConfig.cmake:
+
+/usr/include/bits/select.h:
+
+/usr/include/c++/15.2.1/clocale:
+
+/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
+
+/usr/include/c++/15.2.1/bits/stl_list.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake:
+
+/usr/include/c++/15.2.1/ext/aligned_buffer.h:
+
+/home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt:
+
+/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtCore/qnumeric.h:
 
 /usr/include/c++/15.2.1/bits/stl_algobase.h:
 
@@ -1492,6 +1505,8 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
 /usr/include/c++/15.2.1/bits/stl_numeric.h:
 
 /usr/include/qt6/QtCore/qdebug.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
 
 /usr/include/c++/15.2.1/bits/atomic_base.h:
 
@@ -1529,25 +1544,23 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
 
 /usr/include/bits/endianness.h:
 
+/usr/include/bits/stdint-least.h:
+
+/usr/include/alloca.h:
+
+/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
+
+/usr/include/c++/15.2.1/bits/locale_classes.h:
+
+/usr/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
+
+/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
+
+/usr/include/asm/types.h:
+
+/usr/include/bits/types/struct_FILE.h:
+
 /home/garuda/CPP_Qt_Projects/FishAI/mainwindow.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
-
-/usr/include/c++/15.2.1/tr1/beta_function.tcc:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/share/cmake/Modules/CMakeParseArguments.cmake:
-
-/usr/include/qtermwidget6/Filter.h:
-
-/usr/include/c++/15.2.1/bit:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/qt6/QtCore/qlist.h:
-
-/usr/include/c++/15.2.1/bits/hashtable_policy.h:
 
 /home/garuda/CPP_Qt_Projects/FishAI/mainwindow.ui:
 
@@ -1573,47 +1586,7 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
 
 /home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.h:
 
-/usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/15.2.1/tr1/poly_laguerre.tcc:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/c++/15.2.1/bits/stl_map.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-.qtc/package-manager/auto-setup.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMngPluginConfig.cmake:
-
-/usr/include/bits/select.h:
-
-/usr/include/c++/15.2.1/clocale:
-
-/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
-
-/usr/include/c++/15.2.1/bits/stl_list.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake:
-
-/usr/include/c++/15.2.1/ext/aligned_buffer.h:
-
-/home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt:
-
-/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/qt6/QtCore/qnumeric.h:
-
 /usr/include/c++/15.2.1/type_traits:
-
-/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
-
-/usr/include/c++/15.2.1/debug/debug.h:
 
 /usr/include/c++/15.2.1/bits/align.h:
 
@@ -1635,6 +1608,14 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
 
 /usr/include/qt6/QtCore/QVarLengthArray:
 
+/usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/15.2.1/tr1/poly_laguerre.tcc:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/15.2.1/bits/stl_map.h:
+
 /usr/include/c++/15.2.1/tr1/bessel_function.tcc:
 
 /usr/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
@@ -1652,6 +1633,8 @@ FishAI_autogen/timestamp: /home/garuda/CPP_Qt_Projects/FishAI/CMakeLists.txt \
 /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
 
 /usr/include/qt6/QtCore/qtmetamacros.h:
+
+/usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
 
 /usr/lib/cmake/qtermwidget6/qtermwidget6-targets-release.cmake:
 
@@ -1707,7 +1690,7 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 
 CMakeFiles/4.2.1/CMakeSystem.cmake:
 
-/usr/include/qt6/QtCore/qsharedpointer_impl.h:
+.qtc/package-manager/auto-setup.cmake:
 
 /usr/include/bits/setjmp.h:
 
@@ -1719,15 +1702,13 @@ CMakeFiles/4.2.1/CMakeSystem.cmake:
 
 /usr/include/bits/waitstatus.h:
 
-/usr/include/bits/stdint-least.h:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
-
-/usr/include/asm/types.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
 /usr/include/c++/15.2.1/bits/stl_bvector.h:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
+
+/usr/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
 
@@ -1762,6 +1743,26 @@ CMakeFiles/4.2.1/CMakeSystem.cmake:
 /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
 
 /usr/include/bits/byteswap.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
+
+/usr/include/c++/15.2.1/tr1/beta_function.tcc:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/share/cmake/Modules/CMakeParseArguments.cmake:
+
+/usr/include/qtermwidget6/Filter.h:
+
+/usr/include/qt6/QtCore/qsharedpointer_impl.h:
+
+/usr/include/c++/15.2.1/bit:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/qt6/QtCore/qlist.h:
+
+/usr/include/c++/15.2.1/bits/hashtable_policy.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
 
@@ -1820,12 +1821,6 @@ CMakeFiles/4.2.1/CMakeSystem.cmake:
 /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
 /usr/include/c++/15.2.1/bits/stl_pair.h:
-
-/usr/include/c++/15.2.1/bits/streambuf.tcc:
-
-/home/garuda/CPP_Qt_Projects/FishAI/networkmanager.cpp:
-
-/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
 
 /usr/include/bits/waitflags.h:
 
@@ -1923,10 +1918,6 @@ CMakeFiles/4.2.1/CMakeSystem.cmake:
 
 /usr/include/qt6/QtCore/qtcore-config.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
 /usr/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
@@ -2003,9 +1994,7 @@ CMakeFiles/4.2.1/CMakeSystem.cmake:
 
 /usr/include/qt6/QtCore/QSizeF:
 
-/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtCore/QString:
+/usr/include/qt6/QtCore/QStringDecoder:
 
 /usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake:
 
@@ -2014,8 +2003,6 @@ CMakeFiles/4.2.1/CMakeSystem.cmake:
 /usr/include/qt6/QtCore/QStringList:
 
 /usr/include/qt6/QtCore/qfunctionpointer.h:
-
-/usr/include/qt6/QtCore/QStringDecoder:
 
 /usr/include/qt6/QtCore/QTextStream:
 
@@ -2036,8 +2023,6 @@ CMakeFiles/4.2.1/CMakeSystem.cmake:
 /usr/include/qt6/QtCore/qurl.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake:
-
-/home/garuda/CPP_Qt_Projects/FishAI/networkmanager.h:
 
 /usr/include/qt6/QtCore/q20functional.h:
 
@@ -2485,6 +2470,8 @@ FishAI_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
 
+/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
+
 /usr/include/c++/15.2.1/bits/memoryfwd.h:
 
 /usr/include/c++/15.2.1/bits/algorithmfwd.h:
@@ -2504,3 +2491,7 @@ FishAI_autogen/moc_predefs.h:
 /usr/include/bits/types/locale_t.h:
 
 /usr/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
+
+/usr/include/c++/15.2.1/debug/debug.h:
+
+/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:

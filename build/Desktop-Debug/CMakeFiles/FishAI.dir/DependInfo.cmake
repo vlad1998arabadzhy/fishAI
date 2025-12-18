@@ -12,7 +12,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/.qt/rcc/qrc_FishAI_translations.cpp" "CMakeFiles/FishAI.dir/build/Desktop-Debug/.qt/rcc/qrc_FishAI_translations.cpp.o" "gcc" "CMakeFiles/FishAI.dir/build/Desktop-Debug/.qt/rcc/qrc_FishAI_translations.cpp.o.d"
   "/home/garuda/CPP_Qt_Projects/FishAI/main.cpp" "CMakeFiles/FishAI.dir/main.cpp.o" "gcc" "CMakeFiles/FishAI.dir/main.cpp.o.d"
   "/home/garuda/CPP_Qt_Projects/FishAI/mainwindow.cpp" "CMakeFiles/FishAI.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/FishAI.dir/mainwindow.cpp.o.d"
-  "/home/garuda/CPP_Qt_Projects/FishAI/networkmanager.cpp" "CMakeFiles/FishAI.dir/networkmanager.cpp.o" "gcc" "CMakeFiles/FishAI.dir/networkmanager.cpp.o.d"
   "/home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.cpp" "CMakeFiles/FishAI.dir/terminalwidget.cpp.o" "gcc" "CMakeFiles/FishAI.dir/terminalwidget.cpp.o.d"
   "" "FishAI" "gcc" "CMakeFiles/FishAI.dir/link.d"
   )

@@ -397,9 +397,6 @@ CMakeFiles/FishAI.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/QtGlobal /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/qtermwidget6/qtermwidget_interface.h \
  /usr/include/qt6/QtGui/QFont /usr/include/qt6/QtGui/qfont.h \
- /home/garuda/CPP_Qt_Projects/FishAI/networkmanager.h \
- /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /usr/include/qtermwidget6/qtermwidget.h \
  /home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen/include/ui_mainwindow.h \
  /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/qvariant.h \
  /usr/include/qt6/QtWidgets/QApplication \
@@ -428,8 +425,4 @@ CMakeFiles/FishAI.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
  /usr/include/qt6/QtWidgets/QVBoxLayout \
  /usr/include/qt6/QtWidgets/QWidget \
- /home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.h \
- /usr/include/qt6/QtWidgets/QMessageBox \
- /usr/include/qt6/QtWidgets/qmessagebox.h \
- /usr/include/qt6/QtWidgets/qdialog.h \
- /usr/include/qt6/QtWidgets/qdialogbuttonbox.h
+ /home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.h

@@ -3,7 +3,6 @@
  mmc:Q_OBJECT
  mdp:/home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen/moc_predefs.h
  mdp:/home/garuda/CPP_Qt_Projects/FishAI/mainwindow.h
- mdp:/home/garuda/CPP_Qt_Projects/FishAI/networkmanager.h
  mdp:/home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.h
  mdp:/usr/include/alloca.h
  mdp:/usr/include/asm-generic/bitsperlong.h
@@ -278,7 +277,6 @@
  mdp:/usr/include/qt6/QtCore/QRegularExpression
  mdp:/usr/include/qt6/QtCore/QSize
  mdp:/usr/include/qt6/QtCore/QSizeF
- mdp:/usr/include/qt6/QtCore/QString
  mdp:/usr/include/qt6/QtCore/QStringDecoder
  mdp:/usr/include/qt6/QtCore/QStringList
  mdp:/usr/include/qt6/QtCore/QTextStream

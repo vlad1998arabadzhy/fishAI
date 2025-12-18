@@ -18,16 +18,12 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    QTermWidget* terminal = terminalWidget->getTerminal();
+    int col = terminalWidget->getTerminal()->screenColumnsCount();
+    int lines= terminalWidget->getTerminal()->screenLinesCount() + terminalWidget->getTerminal()->historyLinesCount();
 
-    // Send Ctrl+Shift+A to select all text (standard terminal shortcut)
-    QKeyEvent pressEvent(QEvent::KeyPress, Qt::Key_A, Qt::ControlModifier | Qt::ShiftModifier);
-    QApplication::sendEvent(terminal, &pressEvent);
+    terminalWidget->getTerminal()->setSelectionStart(0,0);
+    terminalWidget->getTerminal()->setSelectionEnd(lines, col);
 
-    QKeyEvent releaseEvent(QEvent::KeyRelease, Qt::Key_A, Qt::ControlModifier | Qt::ShiftModifier);
-    QApplication::sendEvent(terminal, &releaseEvent);
-
-    // Copy selected text to clipboard
-    terminal->copyClipboard();
+    terminalWidget->getTerminal()->copyClipboard();
 }
 

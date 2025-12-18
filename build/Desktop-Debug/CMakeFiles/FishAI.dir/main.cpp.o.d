@@ -396,9 +396,6 @@ CMakeFiles/FishAI.dir/main.cpp.o: \
  /usr/include/qt6/QtCore/QtGlobal /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/qtermwidget6/qtermwidget_interface.h \
  /usr/include/qt6/QtGui/QFont /usr/include/qt6/QtGui/qfont.h \
- /home/garuda/CPP_Qt_Projects/FishAI/networkmanager.h \
- /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /usr/include/qtermwidget6/qtermwidget.h \
  /usr/include/qt6/QtWidgets/QApplication \
  /usr/include/qt6/QtWidgets/qapplication.h \
  /usr/include/qt6/QtCore/QLocale /usr/include/qt6/QtCore/qlocale.h
