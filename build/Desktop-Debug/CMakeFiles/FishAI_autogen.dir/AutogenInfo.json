@@ -498,6 +498,12 @@
 			null
 		],
 		[
+			"/home/garuda/CPP_Qt_Projects/FishAI/networkmanager.h",
+			"MU",
+			"EWIEGA46WW/moc_networkmanager.cpp",
+			null
+		],
+		[
 			"/home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.h",
 			"MU",
 			"EWIEGA46WW/moc_terminalwidget.cpp",
@@ -569,6 +575,7 @@
 	[
 		[ "/home/garuda/CPP_Qt_Projects/FishAI/main.cpp", "MU", null ],
 		[ "/home/garuda/CPP_Qt_Projects/FishAI/mainwindow.cpp", "MU", null ],
+		[ "/home/garuda/CPP_Qt_Projects/FishAI/networkmanager.cpp", "MU", null ],
 		[ "/home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FishAI.dir/main.cpp.o.d"
   "CMakeFiles/FishAI.dir/mainwindow.cpp.o"
   "CMakeFiles/FishAI.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/FishAI.dir/networkmanager.cpp.o"
+  "CMakeFiles/FishAI.dir/networkmanager.cpp.o.d"
   "CMakeFiles/FishAI.dir/terminalwidget.cpp.o"
   "CMakeFiles/FishAI.dir/terminalwidget.cpp.o.d"
   "FishAI"

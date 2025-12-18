@@ -348,6 +348,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FishAI.dir/build.make CMakeFiles/FishAI.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+networkmanager.o: networkmanager.cpp.o
+.PHONY : networkmanager.o
+
+# target to build an object file
+networkmanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FishAI.dir/build.make CMakeFiles/FishAI.dir/networkmanager.cpp.o
+.PHONY : networkmanager.cpp.o
+
+networkmanager.i: networkmanager.cpp.i
+.PHONY : networkmanager.i
+
+# target to preprocess a source file
+networkmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FishAI.dir/build.make CMakeFiles/FishAI.dir/networkmanager.cpp.i
+.PHONY : networkmanager.cpp.i
+
+networkmanager.s: networkmanager.cpp.s
+.PHONY : networkmanager.s
+
+# target to generate assembly for a file
+networkmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FishAI.dir/build.make CMakeFiles/FishAI.dir/networkmanager.cpp.s
+.PHONY : networkmanager.cpp.s
+
 terminalwidget.o: terminalwidget.cpp.o
 .PHONY : terminalwidget.o
 
@@ -403,6 +427,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... networkmanager.o"
+	@echo "... networkmanager.i"
+	@echo "... networkmanager.s"
 	@echo "... terminalwidget.o"
 	@echo "... terminalwidget.i"
 	@echo "... terminalwidget.s"

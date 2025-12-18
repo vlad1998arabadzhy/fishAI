@@ -1,5 +1,6 @@
 /home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/garuda/CPP_Qt_Projects/FishAI/mainwindow.h \
   /home/garuda/CPP_Qt_Projects/FishAI/build/Desktop-Debug/FishAI_autogen/moc_predefs.h \
+  /home/garuda/CPP_Qt_Projects/FishAI/networkmanager.h \
   /home/garuda/CPP_Qt_Projects/FishAI/terminalwidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -274,6 +275,7 @@
   /usr/include/qt6/QtCore/QRegularExpression \
   /usr/include/qt6/QtCore/QSize \
   /usr/include/qt6/QtCore/QSizeF \
+  /usr/include/qt6/QtCore/QString \
   /usr/include/qt6/QtCore/QStringDecoder \
   /usr/include/qt6/QtCore/QStringList \
   /usr/include/qt6/QtCore/QTextStream \

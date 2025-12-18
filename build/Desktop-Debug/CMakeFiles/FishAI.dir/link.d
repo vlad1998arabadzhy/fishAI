@@ -6,6 +6,7 @@ FishAI: \
   CMakeFiles/FishAI.dir/main.cpp.o \
   CMakeFiles/FishAI.dir/mainwindow.cpp.o \
   CMakeFiles/FishAI.dir/terminalwidget.cpp.o \
+  CMakeFiles/FishAI.dir/networkmanager.cpp.o \
   CMakeFiles/FishAI.dir/build/Desktop-Debug/.qt/rcc/qrc_FishAI_translations.cpp.o \
   /usr/lib/libqtermwidget6.so.2.3.0 \
   /usr/lib/libQt6Widgets.so.6.10.1 \
@@ -98,6 +99,8 @@ CMakeFiles/FishAI.dir/main.cpp.o:
 CMakeFiles/FishAI.dir/mainwindow.cpp.o:
 
 CMakeFiles/FishAI.dir/terminalwidget.cpp.o:
+
+CMakeFiles/FishAI.dir/networkmanager.cpp.o:
 
 CMakeFiles/FishAI.dir/build/Desktop-Debug/.qt/rcc/qrc_FishAI_translations.cpp.o:
 
