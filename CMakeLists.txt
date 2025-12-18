@@ -25,6 +25,8 @@ qt_add_executable(FishAI
     mainwindow.ui
     terminalwidget.h
     terminalwidget.cpp
+    consolemessagecombiner.h
+    consolemessagecombiner.cpp
 )
 
 qt_add_translations(
